@@ -11,7 +11,7 @@ python merge_folders.py --folders_path 'D:\images_directory\folders_with_subfold
 
 
 
-2. To run detection on a new folder images_directory, run the following command: <br />
+2. To run detection on a new folder images_directory, download the model's weights from [this link](https://drive.google.com/file/d/1ayoChH5EFXFhj2B3z_pJJq3HDR7etf4n/view) and save it as `runs/train/wii_28_072/weights/best.pt`. Run the following command: <br />
 ```bash 
 python detect.py --source 'D:\images_directory\site0001'                             ### path to directory containing images (Note: Step 1 should be already completed.)
                  --weights runs/train/wii_28_072/weights/best.pt                     ### path to model weights.
