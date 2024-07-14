@@ -1,0 +1,21 @@
+__pycache__
+.cache
+.coverage
+
+# Packaging files
+*.egg-info
+dist/*
+build/*
+.cache
+__pycache__
+
+# Test files cleanup
+.jpg
+.jpeg
+
+# ide stuff
+.vscode
+.vscode/*
+
+# pipfile stuff
+Pipfile.lock
