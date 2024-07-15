@@ -59,7 +59,7 @@ for i in f:
     rm_tags= 'python %s --images_path %s '%(rm_tags_py,src_path)
     # segregate = 'python %s --images_path %s --pred_path %s --segregated_path %s' %(segregate_py, src_path, os.path.join(test_dir, current_test)+'\\labels', dest_path)
     # tag = 'python %s --images_path %s --pred_path %s --tagged_path %s' %(tag_py, src_path, os.path.join(test_dir, current_test)+'\\labels', src_path)
-    tag = 'python %s --images_path %s --pred_path %s --tagged_path %s' %(tag_py, src_path, os.path.join(test_dir, current_test)+'\\labels',segregation_folder)
+    tag = 'python %s --images_path %s --pred_path %s --tagged_path %s' %(tag_py, src_path, os.path.join(test_dir, current_test, 'labels'), segregation_folder)
     
     os.system(s)
     # os.system(segregate)
